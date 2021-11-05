@@ -1,0 +1,44 @@
+@media screen and (max-width: 400px) {
+
+    .first-image {
+        padding: 0;
+        max-width: 400px
+    }
+
+    .right-text {
+        margin: 0;
+        padding: 0;
+    }
+
+    .right-text p {
+        justify-content: flex-start;
+    }
+
+    .right-picture img {
+        max-width: 380px;
+        margin-top:-150px;
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .first-image img {
+    width: 400px;
+    }
+    .general-tips{
+        display: flex;
+        flex-direction: column;
+    }
+.left-tips{
+    padding: 0;
+}
+.right-tips{
+    padding: 0;
+}
+.six-screen{
+    display: none;
+}
+.buttons{
+    display: none;
+}
+}
